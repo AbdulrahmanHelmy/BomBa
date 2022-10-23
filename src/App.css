@@ -9,7 +9,8 @@
       width:100%;
       padding: 10px 30px;
       position: fixed;
-      box-shadow: 0 10px 15px rgb(197, 194, 194);
+      background-color: #ede8f8;
+      box-shadow: 0 3px 15px rgb(197, 194, 194);
       top: 0;
       left: 0;
       right: 0;

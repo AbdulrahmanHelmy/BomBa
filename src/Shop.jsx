@@ -21,7 +21,7 @@ const Shop  = () => {
 
                         <div class="topleft">
                               <div class="divcat">
-                                    <h3>CATEGORIES</h3>
+                                    <h5>CATEGORIES</h5>
                                     <p>MEN</p>
                                     <p>WOMEN</p>
                                     <p>CHILDREN</p>
@@ -37,15 +37,15 @@ const Shop  = () => {
 
                         <div class="bottomleft">
                               <div class="filter">
-                                    <h3>FILTER BY PRICE</h3>
+                                    <h5>FILTER BY PRICE</h5>
                                     <div class="filt">
                                           <input class="rt1" type="range" name="" id="" min="10" max="60" />
                                           <input class="rt2" type="range" name="" id="" min="10" max="60" />
                                     </div>
                                     <div class="size">
-                                          <h3>size</h3>
+                                          <h5>size</h5>
                                           <input  type="checkbox"/>
-                                          <label>SMALL (2,319)</label><br/><br/>
+                                          <label>SMALL (2,519)</label><br/><br/>
                                           <input  type="checkbox"/>
                                           <label>MIDIUME (1,282)</label><br/><br/>
                                           <input type="checkbox"/>
@@ -55,7 +55,7 @@ const Shop  = () => {
                                     <br/><br/>
 
                                     <div class="color">
-                                          <h3>color</h3>
+                                          <h5>color</h5>
                                           <input type="radio"/>
                                           <label for="">Red</label><br/><br/>
                                           <input type="radio"/>
@@ -72,12 +72,12 @@ const Shop  = () => {
                   <aside class="aside-right">
                         <div class="seck">
                               <div class="shop">
-                                    <h3>Shop all</h3>
+                                    <h5>Shop all</h5>
                               </div>
                               <div class="selectall">
                                     <div class="selc1">
                                           <select class="selc11" name="" id="" >
-                                          <option value="" >Latest</option>
+                                          <option  value="" >Latest</option>
                                           <option value="" >Men</option>
                                           <option value="">Women</option>
                                           <option value="">Children</option>
@@ -110,9 +110,9 @@ const Shop  = () => {
                                           <Link to="single-product.html"><img src= {cloh} /></Link>
                                           </div>
                                           <div class="tank">
-                                          <h3>Tank Top</h3>
+                                          <h5>Tank Top</h5>
                                           <p>finding perfect t-shirt</p>
-                                          <h3>$50</h3>
+                                          <h5>$50</h5>
                                           </div>
                                     </div><br/>
 
@@ -121,9 +121,9 @@ const Shop  = () => {
                                           <Link to="single-product.html"><img src={cloth3} /></Link>
                                           </div>
                                           <div class="tank">
-                                          <h3>T-shirt Mockup</h3>
+                                          <h5>T-shirt Mockup</h5>
                                           <p>finding perfect t-shirt</p>
-                                          <h3>$50</h3>
+                                          <h5>$50</h5>
                                           </div>
                                     </div>
 
@@ -134,9 +134,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src= {sho} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>Center</h3>
+                                                <h5>Center</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div><br/>
                                     </div>
 
@@ -145,9 +145,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src={sho} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>Center</h3>
+                                                <h5>Center</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
                                     <br/>
@@ -159,9 +159,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src={sho} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>Center</h3>
+                                                <h5>Center</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
 
@@ -172,9 +172,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src={sho} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>center</h3>
+                                                <h5>center</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
 
@@ -185,9 +185,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"><img src={clo2} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>polo shirt</h3>
+                                                <h5>polo shirt</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                     </div>
                                     </div>
                                     
@@ -198,9 +198,9 @@ const Shop  = () => {
                                           <Link to="single-product.html"> <img src={clo2} /></Link>
                                     </div>
                                     <div class="tank">
-                                          <h3>Tank Top</h3>
+                                          <h5>Tank Top</h5>
                                           <p>finding perfect t-shirt</p>
-                                          <h3>$50</h3>
+                                          <h5>$50</h5>
                                     </div>
                               </div>
 
@@ -208,15 +208,15 @@ const Shop  = () => {
 
                               </div>
 
-                              <div class="ph3">
+                              <div class="ph5">
                                     <div>
                                           <div class="shad">
                                                 <Link to="single-product.html"><img src={clo2} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>Tank Top</h3>
+                                                <h5>Tank Top</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
 
@@ -227,9 +227,9 @@ const Shop  = () => {
                                           <Link to="single-product.html"> <img src={cloh} /></Link>
                                           </div>
                                           <div class="tank">
-                                          <h3>Polo shirt</h3>
+                                          <h5>Polo shirt</h5>
                                           <p>finding perfect t-shirt</p>
-                                          <h3>$50</h3>
+                                          <h5>$50</h5>
                                           </div><br/>
                                     </div>
  
@@ -238,9 +238,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src={cloh} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>Tank Top</h3>
+                                                <h5>Tank Top</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
                                     
@@ -251,9 +251,9 @@ const Shop  = () => {
                                                 <Link to="single-product.html"> <img src={clo2} /></Link>
                                           </div>
                                           <div class="tank">
-                                                <h3>T-shirt Mockup</h3>
+                                                <h5>T-shirt Mockup</h5>
                                                 <p>finding perfect t-shirt</p>
-                                                <h3>$50</h3>
+                                                <h5>$50</h5>
                                           </div>
                                     </div>
                                     <br/>
@@ -304,7 +304,7 @@ const Shop  = () => {
                   <div className="all">
 
                         <div className="left-footer" >
-                              <h3 >Navigations</h3>
+                              <h5 >Navigations</h5>
                               <div className="left-p">
                                     <p className="p1">Sell online</p>
                                     <p className="p1">Features</p>
@@ -330,7 +330,7 @@ const Shop  = () => {
                         </div>
       
                         <div>
-                              <h3>Promo</h3>
+                              <h5>Promo</h5>
                               <div className="Promo">
                                     <Link to="/"><img src={her} /></Link>
                                     <div className="ap">
@@ -341,7 +341,7 @@ const Shop  = () => {
                         </div>   
       
                         <div>
-                              <h3>Contact info</h3>
+                              <h5>Contact info</h5>
                               <div className="info">
                                     <div className="location">
                                           <i className="fa-solid fa-location-dot"></i>
@@ -349,7 +349,7 @@ const Shop  = () => {
                                     </div>
                                     <div className="phone">
                                           <i className="fa-solid fa-phone"></i>
-                                          <p>01067679913</p>
+                                          <p>01067679915</p>
                                     </div>
                                     <div className="email">
                                           <i className="fa-solid fa-envelope"></i>
